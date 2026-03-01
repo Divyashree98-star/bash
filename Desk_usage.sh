@@ -1,4 +1,5 @@
 #!/bin/bash
+#Disk usage script
 
 THRESHOLD=80
 
@@ -13,3 +14,4 @@ do
         echo "OK : Disk usage on $partition is ${usage}%"
     fi
 done
+
