@@ -8,8 +8,8 @@ do
     partition=$(echo $line | awk '{print $6}')
 
     if [ $usage -ge $THRESHOLD ]; then
-        echo "WARNING: Disk usage on $partition is ${usage}%"
+        echo "WARNING!! : Disk usage on $partition is ${usage}%"
     else
-        echo "OK: Disk usage on $partition is ${usage}%"
+        echo "OK : Disk usage on $partition is ${usage}%"
     fi
 done
